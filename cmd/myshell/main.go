@@ -21,7 +21,7 @@ func main() {
 		_, err := exec.LookPath(cmd)
 
 		if err != nil {
-			fmt.Printf("%s: command not found\n")
+			fmt.Printf("%s: command not found\n", cmd)
 			os.Exit(1)
 		}
 
