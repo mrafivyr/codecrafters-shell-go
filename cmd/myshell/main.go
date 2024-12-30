@@ -22,7 +22,7 @@ func main() {
 
 		if err != nil {
 			fmt.Printf("%s: command not found\n", cmd)
-			os.Exit(1)
+			// os.Exit(1)
 		}
 
 	}	
